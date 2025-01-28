@@ -1,3 +1,5 @@
+# Mrudul Chaudhari - B-29
+
 graph = {
     "A": ["B", "C", "D"],
     "B": ["E", "F"],
@@ -68,4 +70,5 @@ MAX_DEPTH = 4
 
 found, path = iddfs(START_NODE, GOAL_NODE, MAX_DEPTH)
 print(f"Path found: {found}")
-print(f"Path taken: {' -> '.join(path)}")
+if found:
+  print(f"Path taken: {' -> '.join(path)}")
