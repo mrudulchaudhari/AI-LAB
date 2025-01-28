@@ -4,11 +4,26 @@ This repository contains implementations of various search algorithms and proble
 
 ## Files Structure
 
+The project is organized in an AI-LAB directory with separate folders for each lab:
+
+### LAB1
 - `LAB1.py`: Water Jug Problem Implementation
+
+### LAB2
 - `LAB2.py`: BFS (Breadth-First Search) and DFS (Depth-First Search) Implementations
+- `LAB2.png`: Visual representation of BFS/DFS graphs
 - `LAB2B.py`: DLS (Depth-Limited Search) Implementation
+- `LAB2B.png`: Visual representation of DLS graphs
+
+### LAB3
 - `LAB3.py`: Uniform Cost Search Implementation
+- `LAB3.png`: Visual representation of UCS graphs
 - `LAB3B.py`: Iterative Deepening DLS Implementation
+- `LAB3B.png`: Visual representation of IDDFS graphs
+
+Additional files:
+- `.gitignore`: Git ignore configurations
+- `README.md`: Project documentation
 
 ## Problem Statements
 
@@ -51,7 +66,8 @@ Each problem statement includes corresponding graph images (.png files) for bett
 
 ## How to Run
 1. Clone the repository
-2. Navigate to the desired lab file
+2. Navigate to the desired lab folder
 3. Run using Python interpreter:
    ```bash
    python LAB<number>.py
+   ```
