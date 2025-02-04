@@ -21,6 +21,12 @@ The project is organized in an AI-LAB directory with separate folders for each l
 - `LAB3B.py`: Iterative Deepening DLS Implementation
 - `LAB3B.png`: Visual representation of IDDFS graphs
 
+### LAB4
+- `Astar.py`: A Star Algorithm Implementation
+- `Astar.png`: Visual representation of A star graph
+- `GBFS.py`: Greedy Best First Search Algorithm Implementation
+- `GBFS.png`: Visual representation of A star graph
+
 Additional files:
 - `.gitignore`: Git ignore configurations
 - `README.md`: Project documentation
